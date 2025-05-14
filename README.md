@@ -62,3 +62,27 @@ step 06 : MONGODB CONNECTION
 ![image](https://github.com/user-attachments/assets/51381d83-332a-4dd4-bb20-10ec66529d7a)
 
 
+step 07 : create the model file in the src/min/java-package 
+step 08" create the database in mongodb as same name in package 
+step 10 : open the java class and type ../////////  CREATE MODEL   ////////
+@document(collection="student ")
+public class student {
+@id 
+private String id ;
+private String name ;
+private String dept ;
+// read get 
+public String getId(){
+return id;
+}
+public void setId(String id){
+this.id=id; // for reference object 
+}
+method - correction of st : 2 types - user defined - access defined -
+client -server -db
+        controller  //collection of api and functionality of api
+         service // product seriva
+         model
+         repository (JPA - manageing the relational data )
+          db 
+
